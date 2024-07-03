@@ -1,14 +1,12 @@
 import Header from "./components/header"
-import Backsplash from "./components/backsplash"
-import MainContent from "./components/mainContent"
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { Outlet } from "react-router-dom"
 
 function App () {
   return(
     <>
       <Header/>
-      <Backsplash/>
-      <MainContent/>
+      <Outlet/>
     </>
   )
 }
