@@ -7,7 +7,7 @@ function AboutPic() {
                 <Container>
                     <Row>
                         <Col md={6}>
-                        <img className="w-75 p-5" src="/public/images/pic-of-me.jpg"/>
+                        <img className="w-75 p-5" src="/images/pic-of-me.jpg"/>
                         </Col>
                         <Col md={6}>
                             <p className="p-5">
