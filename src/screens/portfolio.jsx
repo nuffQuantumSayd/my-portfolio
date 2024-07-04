@@ -1,7 +1,9 @@
+import DisplayCarousel from "../components/displayCarousel"
+
 const Portfolio = () => {
     return(
         <>
-        portfolio
+        <DisplayCarousel />
         </>
     )
 }
